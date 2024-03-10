@@ -28,9 +28,9 @@ return {
       dashboard.button("e", "New file", "<cmd>ene <CR>"),
       dashboard.button("Space b", "File tree"),
       dashboard.button("Space f f", "Find file"),
-      dashboard.button("Space f r", "Recent files"),
       dashboard.button("Space f b", "Find buffer"),
-      dashboard.button("Space f h", "Help"),
+      dashboard.button("Space f r", "Recent files"),
+      dashboard.button("Space h h", "Harpoon marks"),
     }
 
     _Gopts = {

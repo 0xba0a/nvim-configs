@@ -10,9 +10,9 @@ vim.keymap.set('n', '<Leader>fg', builtin.live_grep, opts)
 vim.keymap.set('n', '<Leader>fb', builtin.buffers, opts)
 vim.keymap.set('n', '<Leader>fh', builtin.help_tags, opts)
 vim.keymap.set('n', '<Leader>fr', builtin.oldfiles, opts)
+vim.keymap.set('n', '<Leader>hh', ':Telescope harpoon marks<CR>', opts)
 
 vim.keymap.set('n', '<Leader>d', ':Alpha <CR>', opts)
 
 vim.keymap.set('n', '<Leader><Leader>', ':noh<CR>', opts)
-
-vim.keymap.set('n', '<C-t>', ':TransparentToggle<CR>', opts)
+vim.keymap.set('n', '<Leader>pv', vim.cmd.Ex, opts)
