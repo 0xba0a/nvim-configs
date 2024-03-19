@@ -14,6 +14,7 @@ return {
       [[                                                    ]],
       [[                                                    ]],
       [[                                                    ]],
+      [[                                                    ]],
       [[ ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ]],
 	    [[ ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ]],
 	    [[ ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ]],
@@ -31,6 +32,7 @@ return {
       dashboard.button("Space f b", "Find buffer"),
       dashboard.button("Space f r", "Recent files"),
       dashboard.button("Space h h", "Harpoon marks"),
+      dashboard.button("F1", "Help")
     }
 
     _Gopts = {
@@ -45,7 +47,13 @@ return {
       [[                      ]],
       [[                      ]],
       [[                      ]],
-      [[ Welcome back, Behruz!]],
+      [[ Let the beauty of what you ]],
+      [[    love be what you do.    ]],
+      [[                      ]],
+      [[                      ]],
+      [[                      ]],
+      [[                      ]],
+      [[                      ]],
     }
 
     alpha.setup(dashboard.opts)

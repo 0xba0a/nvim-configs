@@ -22,4 +22,8 @@ vim.opt.ignorecase = true
 
 vim.opt.termguicolors = true
 
+vim.opt.fillchars = { eob = " " }
+
+vim.opt.showmode = false
+
 vim.g.mapleader = " "

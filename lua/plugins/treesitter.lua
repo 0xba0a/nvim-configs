@@ -10,6 +10,7 @@ return {
         "typescript",
         "tsx",
         "glsl",
+        "hlsl",
         "rust",
         "vim",
         "vimdoc",
@@ -19,7 +20,7 @@ return {
       auto_install = true,
 
       highlight = {
-        enable = false,
+        enable = true,
         additional_vim_regex_highlighting = false,
       },
 
@@ -65,5 +66,5 @@ return {
         }
       },
     })
-  end 
+  end
 }
